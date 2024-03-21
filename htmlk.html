@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Bora 5 minutos na mao Pedro Arthur?</h1>
+  <button id="sim-button">Sim</button>
+  <button>Nao</button>
+
+  <script>
+    // Seleciona o elemento do botão com o ID "sim-button"
+    const simButton = document.getElementById("sim-button");
+
+    // Adiciona um evento de clique ao botão
+    simButton.addEventListener("click", () => {
+      // Redireciona o usuário para o link especificado
+      window.location.href = "https://youtube.com/shorts/uIcN3Uj9RWQ?si=5LXCQb3PXF4yFhrl";
+    });
+  </script>
+</div>
+
+</body>
+</html>
